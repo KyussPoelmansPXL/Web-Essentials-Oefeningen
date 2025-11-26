@@ -1,0 +1,123 @@
+body{
+    background-color: gray;
+    font-family: verdana, sans-serif;
+    color: white;
+}
+
+h1{
+    color: red;
+}
+
+#albums{
+    list-style-image: url(assets/disk.png);
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+img{
+    width: 250px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+nav ul li a:hover{
+    border: 2px solid red;
+}
+
+article{
+    margin-bottom: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#pukkelpop{
+    background-color: orange;
+    border: 3px solid darkblue;
+}
+
+#pukkelpop a{
+    color: darkblue;
+}
+
+#pukkelpop a:hover{
+    color: white;
+}
+
+#rock-werchter{
+    background-color: black;
+    border: 3px solid white;
+    color: aqua;
+}
+
+#rock-werchter a{
+    color: aqua;
+}
+
+#rock-werchter a:hover{
+    color: gray;
+}
+
+#tomorrowland{
+    background-color: deeppink;
+    border: 3px solid purple;
+}
+
+#tomorrowland a{
+    color: purple;
+}
+
+#tomorrowland a:hover{
+    color: lightpink;
+}
+
+#graspop{
+    background-color: green;
+    border: 3px solid darkgreen;
+    color: yellowgreen;
+}
+
+#graspop a{
+    color: yellowgreen;
+}
+
+#graspop a:hover{
+    color: darkgreen;
+}
+
+#dour{
+    background-color: palegoldenrod;
+    border: 3px solid orange;
+    color: goldenrod;
+}
+
+#dour a{
+    color: goldenrod;
+}
+
+#dour a:hover{
+    color: gold;
+}
